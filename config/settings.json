@@ -1,0 +1,47 @@
+{
+    "user": {
+        "name": "Kannan Narayanasamy",
+        "email": "n.kannan200@gmail.com",
+        "role": "Lead DevOps Engineer",
+        "communication_style": "professional"
+    },
+    "email": {
+        "refresh_interval": 300,
+        "auto_archive": false,
+        "important_contacts": [
+            "team@company.com",
+            "manager@company.com",
+            "client1@clientcompany.com",
+            "support@vendorcompany.com"
+        ],
+        "vip_contacts": [
+            "ceo@company.com",
+            "vp-engineering@company.com",
+            "key-client@clientcompany.com"
+        ]
+    },
+    "ai": {
+        "openai_api_key": "YOUR_API_KEY_HERE",
+        "model": "gpt-4",
+        "system_prompt": "You are an AI email assistant for John Smith, who works as a Lead DevOps Engineer with 10 years of experience. Write email responses in a professional, straightforward style with technical accuracy. Keep responses concise and to the point. John prefers direct communication without overly formal language.",
+        "always_review": true,
+        "style_samples": [
+            "Hi team,\n\nI've reviewed the deployment process and identified a few bottlenecks we should address. The CI pipeline is taking too long on the static analysis step, and we're seeing intermittent failures in the integration tests.\n\nLet's discuss these issues during our next sprint planning. I'd like to allocate some time to optimize the pipeline and increase reliability.\n\nRegards,\nJohn",
+            
+            "Hello Sarah,\n\nThanks for bringing this to my attention. I agree that we need to address the Kubernetes memory issues before they impact production.\n\nI've already started investigating and found that the recommendation engine pods are consuming more resources than expected. I'll implement memory limits today and monitor the cluster overnight to verify the fix.\n\nI'll update you tomorrow with the results.\n\nJohn Smith",
+            
+            "Hi Peter,\n\nRegarding your question about our AWS architecture - we're currently using a multi-AZ setup with auto-scaling groups for our application tier, and RDS instances in a primary/replica configuration.\n\nFor disaster recovery, we have automated snapshots and a cross-region replication strategy. Recovery time objective is approximately 30 minutes.\n\nLet me know if you need more specific details on any component.\n\nBest,\nJohn"
+        ]
+    },
+    "notifications": {
+        "new_emails": true,
+        "high_priority_only": true,
+        "desktop_notifications": true
+    },
+    "ui": {
+        "theme": "system",
+        "font_size": "medium",
+        "show_preview_pane": true,
+        "default_tab": "inbox"
+    }
+}
